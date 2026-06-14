@@ -21,9 +21,11 @@ A dynamic, budget-conscious travel itinerary generator built with **Python Strea
 ```bash
 git clone [https://github.com/yourusername/student_trip_planner.git](https://github.com/yourusername/student_trip_planner.git)
 cd student_trip_planner
+
 2. Install Dependencies
 Bash
 pip install -r requirements.txt
+
 3. Run the App
 Bash
 python -m streamlit run app.py
