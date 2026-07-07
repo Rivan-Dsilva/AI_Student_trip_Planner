@@ -17,23 +17,45 @@ A dynamic, budget-conscious travel itinerary generator built with **Python Strea
 
 ## 🚀 Quick Start
 
-### 1. Clone & Navigate
+### 1. Clone the Repository
+
 ```bash
-git clone [https://github.com/yourusername/student_trip_planner.git](https://github.com/yourusername/student_trip_planner.git)
+git clone https://github.com/yourusername/student_trip_planner.git
 cd student_trip_planner
+```
 
-2. Install Dependencies
-Bash
+### 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-3. Run the App
-Bash
-python -m streamlit run app.py
-Open http://localhost:8501 in your browser to start planning!
+### 3. Run the Application
 
-🛠️ Tech Stack
-Frontend: Streamlit & Custom CSS
+```bash
+streamlit run app.py
+```
 
-AI Core: Google GenAI SDK (gemini-2.5-flash)
+Open **http://localhost:8501** in your browser to start using the application.
 
-Data Format: Strict JSON validation
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** Streamlit & Custom CSS
+* **AI Core:** Google GenAI SDK (Gemini 2.5 Flash)
+* **Data Format:** JSON
+
+---
+
+## 🔑 API Key
+
+This repository **does not include a valid API key**.
+
+To run the project:
+
+1. Create a free account on **Google AI Studio**.
+2. Generate your own API key.
+3. Replace the placeholder in the code with your API key.
+
+> **⚠️ Never commit your personal API key to a public GitHub repository.**
